@@ -77,21 +77,22 @@ h2{
     }
     footer{
         display: flex;
-        background-color: #c69fd35e;
+        background-color: #0a0a0a5e;
         font-family: 'Poppins',;
         height:40px;
-        border-top: 2px solid rgba(250, 250, 250, 0.11);  
-        position: fixed;
+        border-top: 2px solid rgba(190, 70, 190, 0.11);  
+        position: absolute;
         left: 0;
         bottom: 0;
         width: 100%
     }
     .iconos a{
-        color: rgb(219, 215, 215);
+        color: rgb(252, 247, 247);
     }
     .iconos{
-        color: rgb(238, 231, 231);
-        display: flex;
+        color: rgba(253, 252, 255, 0.945);
+        display: grid;
+        grid-template-columns:20px 150px 25px 150px 25px 150px 25px 100px;
         justify-content: center;
         align-items: center;
         gap: 10px;
