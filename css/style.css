@@ -102,6 +102,39 @@ h2{
         width: 20px;
     }
 
+    @media (max-width:320px)
+    {
+        header{
+            width: 100%;
+            
+
+        }
+        .title h1{
+            position: absolute;
+            color: black;
+            left: 50px;
+            top: -1px;
+            font-size: 100%;
+        }
+        .navbar{
+            background-color: #f5f1f7d8;
+        }
+        .navbar li{
+            
+            left: 20px;
+        }
+        nav{
+            display: flex;
+            width: 100%;
+            
+        }
+        .navbar li a{
+            
+            font-size: 15px;
+            text-decoration: none;
+        }
+        
+    }
 
     /*segundo html*/
     
@@ -253,9 +286,9 @@ header {
     color: black;
     justify-content:space-between;
 }
-nav{
+/*nav{
     width: 30%;
-}
+}*/
 .vuelos{
     display: flex;
     height: 50px;
