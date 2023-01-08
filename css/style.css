@@ -102,12 +102,11 @@ h2{
         width: 20px;
     }
 
-    @media (max-width:320px)
+    @media (max-width:320px) 
     {
-        header{
-            width: 100%;
-            
-
+        .mobile{
+            height:100%;
+            width:100%;
         }
         .title h1{
             position: absolute;
@@ -118,22 +117,35 @@ h2{
         }
         .navbar{
             background-color: #f5f1f7d8;
+            width: 300%;
         }
-        .navbar li{
-            
-            left: 20px;
-        }
-        nav{
-            display: flex;
+        .imagen1{
             width: 100%;
-            
+            height: 20%;
+        }
+        .mobile nav{
+            display: flex;
+            width: 200%;
+            gap: 10%;
         }
         .navbar li a{
             
-            font-size: 15px;
+            width: 100%;
+            font-size: 70%;
             text-decoration: none;
         }
-        
+        .hd1{
+            
+            width: 150%;
+            background-color: #f5f1f738;
+            bottom: 5%;
+        }
+        .iconos{
+            
+            display: flex;
+            font-size: 60%;
+        }
+
     }
 
     /*segundo html*/
