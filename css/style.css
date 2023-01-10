@@ -14,19 +14,24 @@ font-family: 'Roboto', sans-serif;
     padding: 0%;
     box-sizing:border-box;
 }
-
-li{
-    list-style: none;
-
-
-}
+.body1{
+    background-image: linear-gradient(to right top, #ec4cec, #f17ef1, #f5a6f5, #f8cbf8, #f9eef9);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    }
 a{
     text-decoration: none;
 }
 .fondo{
     background-color: #BCEAD5;
 }
-
+.navbar ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 10%;
+}
 
 
 header{
@@ -50,6 +55,7 @@ nav{
 }
 .navbar{
     display: flex;
+    width: 100%;
     height: 50px;
     gap: 20px;
     justify-content: space-evenly;
@@ -57,12 +63,6 @@ nav{
     margin-right: 20px;
     font-family: 'Poppins';
 }
-/*
-.imagen1{
-    background-size:cover;
-    background-image:url(../assets/img/fondo-incio.jpg)
-}*/
-
 h2{
     position: absolute;
     top: 40%;
@@ -76,13 +76,16 @@ h2{
     top: 50%;
     left: 80%;
     }
-    footer{
+    .fondinde img{
+        width: 100%;
+    }
+    .hd1{
         display: flex;
         background-color: #0a0a0a5e;
         font-family: 'Poppins',;
         height:40px;
         border-top: 2px solid rgba(190, 70, 190, 0.11);  
-        position: absolute;
+        position: static;
         left: 0;
         bottom: 0;
         width: 100%
@@ -91,11 +94,11 @@ h2{
         color: rgb(252, 247, 247);
     }
     .iconos{
+        width: 100%;
+        height: 100%;
         color: rgba(253, 252, 255, 0.945);
         display: grid;
         grid-template-columns:20px 150px 25px 150px 25px 150px 25px 100px;
-        justify-content: center;
-        align-items: center;
         gap: 10px;
     }
     .iconos img{
@@ -105,6 +108,13 @@ h2{
 
     @media (max-width:320px) 
     {
+        .body1{
+            background-image: linear-gradient (to right top, #ec4cec, #f17ef1, #f5a6f5, #f8cbf8, #f9eef9);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            width: 100%;
+            height: 100%;
+        }
         .mobile{
             background-color:#f5f1f7d8 ;
             height:100%;
@@ -124,25 +134,96 @@ h2{
         .navbar ul{
             display: flex;
             gap: 10%;
-            width: 100%;
+            width: 100vh;
             font-size: 70%;
             text-decoration: none;
         }
-        .hd1{
-            background-color: #D989B5;
-            width:100vh;
-            background-color: #f5f1f738;
-            bottom: -120%;
+        .tile h1{
+            font-family: 'Nunito', sans-serif;
         }
-        .iconos{
+        .fondinde img{
             width: 100vh;
-            background-color: #D989B5;
+        }
+        .viajes h2{
+            
+            top:100px ;
+            
+        }
+        .viajes p{
+            width:40%;            
             display: flex;
+            top: 220px;
+        }
+        .item1 img{
+            display: none;
+        }
+        .item2 img{
+            display: none;
+        }
+        .item3 img{
+            display: none;
+        }
+        .item1 h3{
+            font-family: 'Mukta', sans-serif;
+            font-size: 90%;
+        }
+        .item1 p{
+            font-size: 70%;
+        }
+        .lorem1{
+            font-size: 70%;
+        }
+        .item2 h4{
+            font-family: 'Mukta', sans-serif;
+            font-size: 90%;
+        }
+        .item2 p{
+            font-size: 70%;
+        }
+        .lorem2{
+            font-size: 70%;
+        }
+        .item3 h5{
+            font-family: 'Mukta', sans-serif;
+            font-size: 90%;
+        }
+        .item3 p{
+            font-size: 70%;
+        }
+        .lorem3{
+            height: 100%;
+            width: 100%;
+            font-size: 70%;
+        }
+
+        .iconos{
+            height: 40%;
+            position: static;
+            bottom: 0;
+            
+            width:100vh;
+            display: flex;
+            font-family: 'Poppins';
+            border-top: 2px solid rgba(190, 70, 190, 0.11);  
+            
+        }
+        .iconos div{
+            
+            height: 5vh;
+            position: absolute;
+            width: 100vh;
+            display: grid;
+            grid-template-columns:20px 49px 25px 50px 25px 40px 25px 40px;
+            gap: 9px;
             font-size: 60%;
+            
+        }
+        .iconos a{
+            color: #f5f1f7d8;
         }
         .carindex{
             width: 100vh;
-            height: 100vh;
+            height: 100%;
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -152,25 +233,29 @@ h2{
             "item3 item3 item3 item3 item3";
         }
         .item1{
-            background-color: #BCEAD5;
+            
             grid-area:item1;
-            width: 100%;
-            height: 80%;
+            width: 100vh;
+            height: 100%;
             padding: 1%;
-            border: 2px solid black;
+            border: 2px solid #f17ef1;
+            border-radius: 5px;
             row-gap: 5%;
         
         }
         .item2{
-            height: 90%;
-            background-color: #f17b0c;
+            width: 100vh;
+            height: 100%;
+            border: 2px solid #f17ef1;
+            border-radius: 5px;
             grid-area:item2;
 
         }
         .item3{
-            height: 80%;
-            
-            background-color: #0ad6ec73;
+            width: 100vh;
+            height: 100%;
+            border: 2px solid #f17ef1;
+            border-radius: 5px;
             grid-area:item3;
         }
     }
