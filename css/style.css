@@ -14,33 +14,30 @@ font-family: 'Roboto', sans-serif;
     padding: 0%;
     box-sizing:border-box;
 }
+
 .body1{
-    background-image: linear-gradient(to right top, #ec4cec, #f17ef1, #f5a6f5, #f8cbf8, #f9eef9);
-    background-size: cover;
+    margin: 0%;
+    padding: 0%;
     width: 100%;
+    background-image: linear-gradient(to right top, #ec4cec, #f17ef1, #f5a6f5, #f8cbf8, #f9eef9);background-size:cover ; background-attachment: fixed;
     position: relative;
-    }
+}
 a{
     text-decoration: none;
 }
-.fondo{
-    background-color: #BCEAD5;
-}
 .navbar ul{
+    justify-content: center;
+    width: 100%;
     display: flex;
     list-style: none;
     text-decoration: none;
-    gap: 10%;
+    gap: 5%;
 }
-
-
-header{
+.mobile{
+    height: 100%;
     width: 100%;
-    border-radius: 5px;
-
     display: flex;
     color: black;
-    background-color: #c69fd35e;
     justify-content:space-between;
 }
 .title{
@@ -50,76 +47,131 @@ header{
     align-items:center;
     font-family:'Roboto',;
 }
-nav{
-    width: 30%;
-}
+
 .navbar{
     display: flex;
     width: 100%;
-    height: 50px;
-    gap: 20px;
+    height: 100%;
+    gap: 10px;
     justify-content: space-evenly;
     padding: 20px;
     margin-right: 20px;
     font-family: 'Poppins';
 }
-h2{
-    position: absolute;
-    top: 40%;
-    left: 80%;
-    color: white
+.fondinde{
+    background-attachment: 300%;
 }
-    .viajes p{
-        color: aliceblue;
-        position: absolute;
-        flex-direction: column;
-    top: 50%;
-    left: 80%;
-    }
-    .fondinde img{
+.fondinde img{
+    width: 100%;
+    height: 100%;
+}
+.viajes{
+    display: none;
+}
+    .carindex{
+        
         width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "item1 item1 item1 item1 item1"
+        "item2 item2 item2 item2 item2"
+        "item3 item3 item3 item3 item3";
     }
-    .hd1{
-        display: flex;
-        background-color: #0a0a0a5e;
-        font-family: 'Poppins',;
-        height:40px;
-        border-top: 2px solid rgba(190, 70, 190, 0.11);  
-        position: static;
-        left: 0;
-        bottom: 0;
-        width: 100%
+
+    .item1{
+        grid-area:item1;
+        border-radius: 20px;
+        background-color: #efb8fa;
+        width: 100%;
+        height: 100%;
+    }
+    .item1 h3{
+        text-align: center;
+        font-size: 200%;
+    }
+    .item1 p{
+        text-align: center;
+        font-size: 170%;
+    }
+    .lorem1{
+        position: absolute; left: 30%;
+        font-size: 150%;
+    }
+    .item2{
+        grid-area:item2;
+        border-radius: 20px;
+        background-color: #efb8fa;
+        width: 100%;
+        height: 100%;
+
+    }
+    .item2 h4{
+        text-align: center;
+        font-size: 200%;
+    }
+    .item2 p{
+        text-align: center;
+        font-size: 170%;
+    }
+    .lorem2{
+        position: absolute; left: 30%;
+        font-size: 150%;
+    }
+    .item3{
+        grid-area:item3;
+        border-radius: 20px;
+        background-color: #efb8fa;
+        width: 100%;
+        height: 100%;
+
+    }
+    .item3 h5{
+        text-align: center;
+        font-size: 200%;
+    }
+    .item3 p{
+        text-align: center;
+        font-size: 170%;
+    }
+    .lorem3{
+        position: absolute; left: 30%;
+        font-size: 150%;
     }
     .iconos a{
         color: rgb(252, 247, 247);
+        font-family: 'Montserrat', sans-serif;
     }
     .iconos{
+        position: static;
+        bottom: 0%;
         width: 100%;
-        height: 100%;
-        color: rgba(253, 252, 255, 0.945);
-        display: grid;
-        grid-template-columns:20px 150px 25px 150px 25px 150px 25px 100px;
+    }
+    .iconos div{
+        width: 100%;
+        display: flex;
         gap: 10px;
     }
     .iconos img{
-        
         width: 20px;
     }
 
-    @media (max-width:320px) 
-    {
-        .body1{
-            background-image: linear-gradient (to right top, #ec4cec, #f17ef1, #f5a6f5, #f8cbf8, #f9eef9);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            width: 100%;
-            height: 100%;
-        }
-        .mobile{
-            background-color:#f5f1f7d8 ;
-            height:100%;
-            width:100vh;
-        }
+@media (max-width:320px)
+{
+    *{
+        margin: 0%;
+        padding: 0%;
+        border: 0%;
+        box-sizing:border-box;
+    }
+    .body1{
+        height:100%;
+        width: 160%;
+        background-image: linear-gradient(to right top, #ec4cec, #f17ef1, #f5a6f5, #f8cbf8, #f9eef9);background-size:cover ; background-attachment: fixed;
+        position: relative;
+    }
         .title h1{
             position: absolute;
             color: black;
@@ -127,29 +179,16 @@ h2{
             top: -1px;
             font-size: 100%;
         }
-        .navbar{
-            background-color: #f5f1f7d8;
-            width: 100vh;
-        }
-        .navbar ul{
-            display: flex;
-            gap: 10%;
-            width: 100vh;
-            font-size: 70%;
-            text-decoration: none;
-        }
         .tile h1{
             font-family: 'Nunito', sans-serif;
         }
-        .fondinde img{
-            width: 100vh;
-        }
         .viajes h2{
-            
+            font-family: 'Nunito', sans-serif;
             top:100px ;
             
         }
         .viajes p{
+            color: rgb(255, 255, 255);
             width:40%;            
             display: flex;
             top: 220px;
@@ -164,66 +203,49 @@ h2{
             display: none;
         }
         .item1 h3{
+            text-align: center;
             font-family: 'Mukta', sans-serif;
-            font-size: 90%;
+            font-size: 120%;
         }
         .item1 p{
-            font-size: 70%;
+            text-align: center;
+            font-size: 110%;
         }
         .lorem1{
-            font-size: 70%;
+            position: absolute; left: 0%;
+            width: 100%;
+            height: 100%;
+            font-size: 100%;
         }
         .item2 h4{
             font-family: 'Mukta', sans-serif;
-            font-size: 90%;
+            font-size: 120%;
         }
         .item2 p{
-            font-size: 70%;
+            font-size: 110%;
         }
         .lorem2{
-            font-size: 70%;
+            position: absolute; left: 0%;
+            width: 100%;
+            height: 100%;
+            font-size: 100%;
         }
         .item3 h5{
             font-family: 'Mukta', sans-serif;
-            font-size: 90%;
+            font-size: 120%;
         }
         .item3 p{
-            font-size: 70%;
+            font-size: 110%;
         }
         .lorem3{
+            position: absolute; left: 0%;
             height: 100%;
             width: 100%;
-            font-size: 70%;
-        }
-
-        .iconos{
-            height: 40%;
-            position: static;
-            bottom: 0;
-            
-            width:100vh;
-            display: flex;
-            font-family: 'Poppins';
-            border-top: 2px solid rgba(190, 70, 190, 0.11);  
-            
-        }
-        .iconos div{
-            
-            height: 5vh;
-            position: absolute;
-            width: 100vh;
-            display: grid;
-            grid-template-columns:20px 49px 25px 50px 25px 40px 25px 40px;
-            gap: 9px;
-            font-size: 60%;
-            
-        }
-        .iconos a{
-            color: #f5f1f7d8;
+            font-size: 100%;
         }
         .carindex{
-            width: 100vh;
-            height: 100%;
+            width: 100%;
+            height: 500px;
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -235,8 +257,7 @@ h2{
         .item1{
             
             grid-area:item1;
-            width: 100vh;
-            height: 100%;
+            width: 100;
             padding: 1%;
             border: 2px solid #f17ef1;
             border-radius: 5px;
@@ -244,7 +265,7 @@ h2{
         
         }
         .item2{
-            width: 100vh;
+            width: 100%;
             height: 100%;
             border: 2px solid #f17ef1;
             border-radius: 5px;
@@ -252,7 +273,7 @@ h2{
 
         }
         .item3{
-            width: 100vh;
+            width: 100%;
             height: 100%;
             border: 2px solid #f17ef1;
             border-radius: 5px;
