@@ -5,11 +5,12 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Mulish', sans-serif;
+font-family: 'Oswald', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,100;0,300;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@300&family=Nunito:wght@300&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;0,300;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@300&family=Mulish:ital,wght@0,200;1,200&family=Nunito:wght@300&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;0,300;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@300&family=Mulish:ital,wght@0,200;1,200&family=Nunito:wght@300&family=Oswald:wght@400;500&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;0,300;1,500&display=swap');
 
 *{
     margin: 0%;
@@ -287,27 +288,38 @@ a{
     .colorbody{
         background-image: linear-gradient(to right, #4cd7ec, #74d3e1, #8fcfd7, #a5cbcf, #b8c6c7);
     }
-    .hdm2{    
-        font-family:'Roboto', sans-serif;
-        width:100%;
-        display: flex;
-        color:white;
-        background-image: linear-gradient(to right, #4cd7ec, #74d3e1, #8fcfd7, #a5cbcf, #b8c6c7);
-    }
-    .promoh{
+    .headerhdm2 {
         width: 100%;
-        font-family: 'Roboto', sans-serif;
-        position: relative;
         display: flex;
-        height: 50px;
+        justify-content:space-between;
+        border-radius: 5px;
+        font-family: 'Mulish', sans-serif;
+    }
+    .promoht2 a{
+        width: 100%;
+        color:rgb(0, 0, 0)
+    }
+    
+    .promoht2{ 
+        gap: 50px;
+        list-style: none;
+        width: 100%;
+        display: flex;
+        height: 50;
+        justify-content: space-evenly;
+        margin-right: 20px;
+    }
+    .promoht2 ul{
         gap: 20px;
-        justify-content: space-between;
-        padding: 20px;
-        
+        display: flex;
     }
-    .promoh li{
-        list-style:none;
+    .promoht2 li{
+        width: 100%;
+        list-style: none;
+        font-size: 130%;
+        padding: 0;
     }
+    
     .main{
         color: rgba(32, 119, 119, 0.486);
 
@@ -415,7 +427,20 @@ a{
     border: 5px solid white;
     border-radius: 20px;
     background-color: aliceblue;
-
+}
+.textodes{
+    text-align: left;
+    left: 8px;
+    border-radius: 80px;
+    width: 40%;
+    top: 80px;
+    position: absolute;
+}
+.textodes p{
+    font-family: 'Oswald', sans-serif;
+    left: 20px;
+    text-align: left;
+    font-size: 130%;
 }
 .fot3{
     position: static;
@@ -601,24 +626,31 @@ a{
 }
 
 .resenas p{
+    color: #f9eef9;
     position: relative;
     text-align:right;
-    width: 300px;
+    width: 40%;
     bottom: 100px;
+    left: 80px;
 }
 .resenas h2{
+    color: rgb(84, 84, 85);
+    top: 200px;
     position: absolute;
     left: 30px;
 }
 
 .pie5{
-    background-color: #ac8533;
+    position: static;
+    gap: 20px;
     font-family:'Montserrat',;
-    color: black;
-    height:40px;
     left: 0;
     bottom: 0;
     width: 100%
+}
+.pie5 a{
+    bottom: 0%;
+    color: aliceblue;
 }
 
 
