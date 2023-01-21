@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "buenas tardes.\r hice responsive el html 1 y el 4\r trate de corregir los errores de la primera entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alan-Mansilla/PROYECTO-FINAL.IO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alan-Mansilla/PROYECTO-FINAL.IO/issues"
+  },
+  "homepage": "https://github.com/Alan-Mansilla/PROYECTO-FINAL.IO#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

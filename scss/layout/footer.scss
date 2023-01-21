@@ -1,0 +1,38 @@
+.iconos{
+    display: flex;
+    height:40px;
+    width: 100%;
+    gap: 30px;
+    div{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 30%;
+    }
+    a{
+        text-decoration: none;
+        width: 100%;
+    }
+}
+
+/*empieza el segundo html*/
+
+.foterclass{
+    display: flex;
+    height:40px;
+    width: 100%;
+    gap: 30px;
+}
+.fopromo{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30%;
+    a{
+        text-decoration: none;
+    }
+}

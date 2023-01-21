@@ -1,0 +1,98 @@
+.title{
+    justify-content: center;
+    display: flex;
+    color:black;
+    align-items:center;
+}
+
+.carindex{
+    width: 100%;
+    height: 100%;
+    @include grid (col,row,areas)
+    
+}
+.item1{
+    grid-area: item1;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.76);
+    width: 100%;
+    height: 100%;
+    h3{
+        text-align: center;
+        font-size: 200%;
+    }
+    h4{
+        text-align: center;
+        font-size: 150%;
+        
+        
+    }
+    img{
+        
+        margin-top: -100px;
+        margin-left: 3%;
+    }
+}
+.lorem{
+    margin-top: 40px;
+    margin-left: 30%;
+    font-size: 30px;
+    color: rgb(13, 13, 14);
+
+}
+.item2{
+    height: 100%;
+    grid-area: item2;
+    @extend .item1;
+    img{
+        position: absolute;
+        margin-top: -50px;
+    }
+}
+.item3{
+    grid-area: item3;
+    @extend .item1;
+    img{
+        position: absolute;
+        margin-top: -60px;
+    }
+}
+.lorem2{
+    @extend .lorem;
+}
+.lorem3{
+    @extend .lorem;
+
+}
+/*empieza el segundo html*/
+.container h1{
+    position: relative;
+    text-align: center;
+    top: -850px;
+}
+.container{
+    h2{
+        position: relative;
+        top: -20px;
+    }
+}
+.tienda{
+    h3{
+        text-align: center;
+    }
+}
+.card{
+    width:100%;
+    background-image: linear-gradient(to right, #4cd7ec, #74d3e1, #8fcfd7, #a5cbcf, #b8c6c7);
+    display: flex;
+    flex-direction: row;
+}
+.cardsgrup{
+    width: 100%;
+    padding: 40px;
+    border: 2px solid #384c50;
+    border-radius: 10px;
+    align-items: center;
+    row-gap: 50px;
+
+}
