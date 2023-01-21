@@ -96,3 +96,60 @@
     row-gap: 50px;
 
 }
+
+
+/*empieza el html 3*/
+
+.maindestino h1{
+    position: relative;
+    text-align: center;
+}
+.titulo4{
+    h2{
+    position: absolute;
+    top: 40%;
+    left:50%}
+    a{
+        text-decoration: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 10px 10px;
+        border: 5px solid white;
+        border-radius: 20px;
+        background-color: aliceblue;
+    }
+}
+.textodes{
+    text-align: left;
+    left: 10px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.603);
+    width: 40%;
+    top: 200px;
+    position: absolute;
+}
+/*empieza el cuarto html*/
+
+.mainvuelos h1{
+    top: -800px;
+    position: relative;
+    text-align: center;
+}
+
+fieldset{
+    background-color: rgba(240, 248, 255, 0.644);
+    color: black;
+    position: absolute;
+    top: 100px;
+    margin: 30px;
+    padding:20px;
+    width: 40%;
+    height: 25%;
+    border-radius: 30px;
+    border: 2px solid;
+    font-size: 110%;
+    legend{
+        padding: 10px;
+    }
+}

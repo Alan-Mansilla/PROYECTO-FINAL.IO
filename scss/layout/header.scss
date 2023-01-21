@@ -33,3 +33,22 @@
     @extend .navbar;
 }
 
+/*empieza el tercer html*/
+
+.hdm3{
+    @extend .mobile;
+    height: 20%
+}
+.destiny{
+    @extend .navbar;
+}
+
+/*empieza el cuarto html*/
+
+.hdmvuelos{
+    @extend .mobile;
+    height: 20%;
+}
+.vuelos{
+    @extend .navbar;
+}

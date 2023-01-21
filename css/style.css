@@ -17,32 +17,52 @@
   background-attachment: fixed;
   position: relative; }
 
+/*empieza html 2*/
 .colorbody {
   background-image: linear-gradient(to right, #4cd7ec, #74d3e1, #8fcfd7, #a5cbcf, #b8c6c7); }
 
-.mobile, .headerhdm2 {
+/*empieza html 3*/
+.colordestino {
+  background-image: linear-gradient(to right bottom, #f61dc7, #f657d5, #f67ae1, #f697eb, #f6b1f3); }
+
+/*empieza html 4*/
+.bodyclass {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #1db4f6, #27c3f6, #43d1f5, #61dff2, #80ebf0);
+  position: relative; }
+
+.mobile, .headerhdm2, .hdm3, .hdmvuelos {
   height: 100%;
   width: 100%; }
 
-.navbar, .promoht2 {
+.navbar, .promoht2, .destiny, .vuelos {
   display: flex;
   width: 100%;
   height: 100%;
   padding: 20px;
   text-align: center; }
-  .navbar ul, .promoht2 ul {
+  .navbar ul, .promoht2 ul, .destiny ul, .vuelos ul {
     margin-left: 20%;
     text-align: center;
     width: 100%;
     display: flex;
     list-style: none;
     gap: 10%; }
-    .navbar ul a, .promoht2 ul a {
+    .navbar ul a, .promoht2 ul a, .destiny ul a, .vuelos ul a {
       text-decoration: none;
       font-size: 20px; }
 
 /*empieza el segundo html*/
 .headerhdm2 {
+  height: 20%; }
+
+/*empieza el tercer html*/
+.hdm3 {
+  height: 20%; }
+
+/*empieza el cuarto html*/
+.hdmvuelos {
   height: 20%; }
 
 .title {
@@ -121,6 +141,56 @@
   align-items: center;
   row-gap: 50px; }
 
+/*empieza el html 3*/
+.maindestino h1 {
+  position: relative;
+  text-align: center; }
+
+.titulo4 h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%; }
+
+.titulo4 a {
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 10px 10px;
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: aliceblue; }
+
+.textodes {
+  text-align: left;
+  left: 10px;
+  border-radius: 5px;
+  background-color: rgba(240, 248, 255, 0.603);
+  width: 40%;
+  top: 200px;
+  position: absolute; }
+
+/*empieza el cuarto html*/
+.mainvuelos h1 {
+  top: -800px;
+  position: relative;
+  text-align: center; }
+
+fieldset {
+  background-color: rgba(240, 248, 255, 0.644);
+  color: black;
+  position: absolute;
+  top: 100px;
+  margin: 30px;
+  padding: 20px;
+  width: 40%;
+  height: 25%;
+  border-radius: 30px;
+  border: 2px solid;
+  font-size: 110%; }
+  fieldset legend {
+    padding: 10px; }
+
 .iconos {
   display: flex;
   height: 40px;
@@ -138,18 +208,21 @@
     width: 100%; }
 
 /*empieza el segundo html*/
-.foterclass {
+.foterclass, .fot3, .footerhdm4 {
   display: flex;
   height: 40px;
   width: 100%;
   gap: 30px; }
 
-.fopromo {
+.fopromo, .iconosd, .divvvuelos {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-left: 30%; }
-  .fopromo a {
+  .fopromo a, .iconosd a, .divvvuelos a {
     text-decoration: none; }
+
+/*empieza el html3*/
+/*empieza el html4*/

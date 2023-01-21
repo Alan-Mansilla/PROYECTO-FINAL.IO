@@ -36,3 +36,21 @@
         text-decoration: none;
     }
 }
+
+/*empieza el html3*/
+
+.fot3{
+    @extend .foterclass;
+}
+.iconosd{
+    @extend .fopromo;
+}
+
+/*empieza el html4*/
+
+.footerhdm4{
+    @extend .foterclass;
+}
+.divvvuelos{
+    @extend .fopromo;
+}
