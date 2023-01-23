@@ -566,8 +566,7 @@ a{
 
 
 .bodyclass5{
-    background-size: cover;
-    background-image: url(../assets/img/fondo-contactos.jpg); 
+    background-image: linear-gradient(to bottom, #fdd413, #ffdf61, #ffe995, #fff3c6, #fffdf7);
 }
 
 .hdmcontactos {

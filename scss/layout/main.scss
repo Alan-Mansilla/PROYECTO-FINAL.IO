@@ -153,3 +153,51 @@ fieldset{
         padding: 10px;
     }
 }
+
+/*empieza el ultimo html*/
+
+.h1contactos{
+    h1{
+        position: relative;
+        text-align: center;
+    }
+}
+
+.botonvuelos{
+    border-radius: 10px;
+    background-color: #a5a39f73;
+    width: 500px;
+    height:300px;
+    position: relative;
+    left: 700px;
+    top: 30px;
+}
+.form{
+    margin-top: -5%;
+    padding:5px ;
+}
+
+.resenas{
+    img{
+    position: relative;
+    top: -200px;
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+    border-radius:100px ;}
+    h2{
+        color: rgb(84, 84, 85);
+        top: 200px;
+        position: absolute;
+        left: 30px;
+    }
+    p{
+        
+        position: relative;
+        text-align:right;
+        width: 40%;
+        bottom: 200px;
+        left: 80px;
+    }
+
+}
