@@ -272,6 +272,7 @@ fieldset {
 /*empieza el html3*/
 /*empieza el html4*/
 @media (max-width: 768px) {
+  /*empieza el primer html*/
   .fondinde img {
     width: 100%; }
   .item1 h3, .item2 h3, .item3 h3 {
@@ -279,4 +280,124 @@ fieldset {
   .lorem, .lorem2, .lorem3 {
     font-size: 100%; }
   img {
-    width: 25%; } }
+    width: 25%; }
+  /*empieza el segundo html*/
+  .container img {
+    width: 100%; }
+  .card {
+    width: 100%; }
+  .cardsgrup {
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    align-items: center;
+    row-gap: 10px; }
+    .cardsgrup img {
+      width: 90px; }
+  /*empieza el tercer html*/
+  .titulo4 img {
+    width: 100%; }
+  /*empieza el cuarto html*/
+  .mainvuelos img {
+    width: 100%;
+    height: 100%; }
+  fieldset {
+    background-color: rgba(240, 248, 255, 0.644);
+    color: black;
+    position: absolute;
+    top: 100px;
+    margin: 30px;
+    padding: 20px;
+    width: 40%;
+    height: 40%;
+    border-radius: 30px;
+    border: 2px solid;
+    font-size: 80%; }
+    fieldset legend {
+      padding: 5px; }
+  /*empieza el ultimo html*/
+  .botonvuelos {
+    width: 50%;
+    height: 50%;
+    left: 40%; }
+  .form {
+    font-size: 90%;
+    height: 30%; }
+  .resenas img {
+    top: -10px;
+    width: 150px;
+    height: 150px; }
+  .resenas h2 {
+    top: 350px; }
+  .resenas p {
+    left: 150px;
+    bottom: 100px; } }
+
+@media (max-width: 320px) {
+  /*empieza el primer html*/
+  .fondinde img {
+    width: 168%; }
+  .title h1 {
+    position: relative;
+    top: -310px; }
+  .carindex {
+    width: 168%; }
+  .item1, .item2, .item3 {
+    width: 100%;
+    padding: 1%; }
+    .item1 img, .item2 img, .item3 img {
+      display: none; }
+  .lorem, .lorem2, .lorem3 {
+    position: relative;
+    left: -10%; }
+  /*empieza el segundo html*/
+  .colorbody {
+    background-attachment: fixed;
+    background-size: cover;
+    width: 250%; }
+  .containter img {
+    width: 100%; }
+  .fopromo, .iconosd, .divvvuelos, .iconosh5 {
+    margin-bottom: -20px; }
+  /*empieza el tercer html*/
+  .colordestino {
+    width: 200%;
+    background-attachment: fixed;
+    background-size: cover; }
+  .titulo4 img {
+    width: 120%; }
+  .textodes {
+    top: 80%;
+    width: 100%;
+    font-size: 90%; }
+  .titulo4 {
+    width: 100%; }
+    .titulo4 h2 {
+      width: 40%;
+      font-size: 70%;
+      left: 300px; }
+    .titulo4 a {
+      width: 40%;
+      font-size: 60%;
+      left: 300px; }
+  /*empieza el cuarto html*/
+  .bodyclass {
+    background-attachment: fixed;
+    width: 200%; }
+  .mainvuelos img {
+    width: 105%; }
+  fieldset {
+    font-size: 60%;
+    padding: 10px; }
+    fieldset legend {
+      padding: 1px; }
+  /*empieza el ultimo html*/
+  .bodyclass5 {
+    background-attachment: fixed; }
+  .botonvuelos {
+    width: 100%;
+    justify-items: end; }
+  .resenas img {
+    top: 80px; }
+  .resenas h2 {
+    top: 400px; } }

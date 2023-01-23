@@ -1,0 +1,110 @@
+@media (max-width: 320px) {
+/*empieza el primer html*/
+.fondinde{
+    img{
+        width: 168%;
+    }
+}
+.title{
+    h1{
+        position: relative;
+        top: -310px;
+    }
+}
+.carindex{
+    width: 168%;
+}
+.item1{
+    width: 100%;
+    padding: 1%;
+    img{
+        display: none;
+    }
+}
+.lorem{
+    position:relative;
+    left: -10%;
+}
+
+/*empieza el segundo html*/
+.colorbody{
+    background-attachment: fixed;
+    background-size: cover;
+    width: 250%;
+}
+.containter img{
+    width: 100%;
+}
+.fopromo{
+    margin-bottom: -20px;
+}
+
+/*empieza el tercer html*/
+
+.colordestino{
+    width: 200%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.titulo4{
+    img{
+        width: 120%;
+    }
+}
+.textodes{
+    top: 80%;
+    width: 100%;
+    font-size: 90%;
+}
+.titulo4{
+    width: 100%;
+    h2{
+        width: 40%;
+        font-size: 70%;
+        left: 300px;
+    }
+    a{
+        width: 40%;
+        font-size: 60%;
+    left: 300px;
+}
+}
+
+/*empieza el cuarto html*/
+.bodyclass{
+    background-attachment: fixed;
+    width: 200%;
+}
+.mainvuelos{
+    img{
+        width: 105%;
+    }
+}
+fieldset{
+    font-size: 60%;
+    padding: 10px;
+    legend{
+        padding: 1px;
+    }
+}
+
+/*empieza el ultimo html*/
+
+.bodyclass5{
+    background-attachment: fixed;
+}
+
+.botonvuelos{
+    width: 100%;
+    justify-items: end;
+}
+.resenas{
+    img{
+        top: 80px;
+    }
+    h2{
+        top: 400px;
+
+    }
+}
+}
