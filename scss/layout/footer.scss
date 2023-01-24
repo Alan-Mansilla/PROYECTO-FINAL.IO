@@ -10,6 +10,7 @@
         align-items: center;
         gap: 10px;
         margin-left: 30%;
+        font-family: $typo-nav;
     }
     a{
         text-decoration: none;
@@ -24,6 +25,7 @@
     height:40px;
     width: 100%;
     gap: 30px;
+    
 }
 .fopromo{
     list-style: none;
@@ -32,8 +34,10 @@
     align-items: center;
     gap: 10px;
     margin-left: 30%;
+    font-family: $typo-nav;
     a{
         text-decoration: none;
+    
     }
 }
 

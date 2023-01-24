@@ -1,5 +1,6 @@
-@import "./base/reset";
+@import"./utilities/variables";
 @import "./base/typo";
+@import "./base/reset";
 @import "./utilities/mixins";
 @import "./layout/body";
 @import "./layout/header.scss";

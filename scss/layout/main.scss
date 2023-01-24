@@ -3,6 +3,7 @@
     display: flex;
     color:black;
     align-items:center;
+    font-style: $typo-titulo;
 }
 
 .carindex{
@@ -34,8 +35,9 @@
     }
 }
 .lorem{
+    font-family: $typo-main;
     margin-top: 40px;
-    margin-left: 30%;
+    margin-left: 33%;
     font-size: 30px;
     color: rgb(13, 13, 14);
 
@@ -54,7 +56,7 @@
     @extend .item1;
     img{
         position: absolute;
-        margin-top: -60px;
+        margin-top: -150px;
     }
 }
 .lorem2{
@@ -110,6 +112,8 @@
     top: 40%;
     left:50%}
     a{
+        color: black;
+        font-family: $typo-main;
         text-decoration: none;
         position: absolute;
         top: 50%;
@@ -121,6 +125,7 @@
     }
 }
 .textodes{
+    font-family: $typo-main;
     text-align: left;
     left: 10px;
     border-radius: 5px;
@@ -138,12 +143,13 @@
 }
 
 fieldset{
+    font-family: $typo-text;
     background-color: rgba(240, 248, 255, 0.644);
     color: black;
     position: absolute;
     top: 100px;
     margin: 30px;
-    padding:20px;
+    padding:10px;
     width: 40%;
     height: 25%;
     border-radius: 30px;
@@ -192,7 +198,7 @@ fieldset{
         left: 30px;
     }
     p{
-        
+        font-family: $typo-main;
         position: relative;
         text-align:right;
         width: 40%;

@@ -1,3 +1,6 @@
-buenas tardes.
-hice responsive el html 1 y el 4
-trate de corregir los errores de la primera entrega
+PROYECTO-FINAL
+Este es un proyecto para el curso de Desarrollo WEB
+Use las herramientas:
+.HTML
+.CSS
+.SCSS como pre-procesador

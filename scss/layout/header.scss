@@ -15,9 +15,11 @@
         display: flex;
         list-style: none;
         gap: 10%; 
+        font-family:$typo-nav ;
         a{
             text-decoration: none;
             font-size: 20px;
+            
         }
     }
     

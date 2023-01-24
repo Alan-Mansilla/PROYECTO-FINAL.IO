@@ -1,9 +1,17 @@
 @media (max-width: 768px){
     /*empieza el primer html*/
+    .navbar{
+        ul{
+            margin-left: 10%;
+        }
+    }
     .fondinde{
         img{
-        width: 100%;
+        width: 101%;
     }
+}
+.carindex{
+    width: 101%;
 }
 .item1{
     h3{
@@ -17,9 +25,13 @@ img{
     width: 25%;
 }
 /*empieza el segundo html*/
+.colorbody{
+    width: 100%;
+    background-attachment: fixed;
+}
 .container{
     img{
-        width: 100%;
+        width: 101%;
     }
 }
 .card{
@@ -37,15 +49,24 @@ img{
 }
 
 /*empieza el tercer html*/
+.colordestino{
+    width: 100%;
+    background-attachment: fixed;
+}
 .titulo4{
     img{
-        width: 100%;
+        width: 101%;
     }
 }
 /*empieza el cuarto html*/
+.bodyclass{
+    width: 100%;
+    background-attachment: fixed;
+}
+
 .mainvuelos{
     img{
-        width: 100%;
+        width: 101%;
         height: 100%;
     }
 }
@@ -66,7 +87,10 @@ fieldset{
     }
 }
 /*empieza el ultimo html*/
-
+.bodyclass5{
+    width: 100%;
+    background-attachment: fixed;
+}
 .botonvuelos{
     width: 50%;
     height: 50%;
