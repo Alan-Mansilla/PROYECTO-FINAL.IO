@@ -1,0 +1,53 @@
+.h1contactos{
+    h1{
+        font-size: 300%;
+        font-family: $typo-main;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.contactos{
+    border-radius: 10px;
+    background-color: #a5a39f73;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    top: -50px;
+    padding-left: 2%;
+}
+
+.resenas{
+    margin-bottom:1%;
+    display: block;
+    padding: 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background: rgb(218, 215, 215);
+    height: 100%;
+    width: 40%;
+    border-radius: 3px;
+    left: 30%;
+    img{
+        border-radius: 50%;
+				display: block;
+				width: 90px;
+				margin: 10px 20px 0 0;
+				border: 3px solid #fff;
+				float: left;
+    position: relative;
+    
+    background-color: azure;
+    
+    height: 90px;
+    }
+    p{
+        display: flex;
+        font-family: $typo-main;
+        position: relative;
+        
+        width: 70%;
+        
+        
+    }
+
+}

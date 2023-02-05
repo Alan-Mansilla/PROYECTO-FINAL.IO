@@ -1,0 +1,101 @@
+.container{
+    img{
+        margin-top: -10%;
+    }
+}
+.container h1{
+    position: relative;
+    text-align: center;
+    top: -850px;
+}
+.container{
+    h2{
+        position: relative;
+        top: -20px;
+    }
+}
+.tienda{
+    h3{
+        text-align: center;
+    }
+}
+.card{
+    width:100%;
+    background-image: linear-gradient(to right, #4cd7ec, #74d3e1, #8fcfd7, #a5cbcf, #b8c6c7);
+    display: flex;
+    flex-direction: row;
+}
+.cardsgrup{
+    width: 100%;
+    padding: 40px;
+    border: 2px solid #384c50;
+    align-items: center;
+    row-gap: 50px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(235, 247, 248);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+.cardsgrup:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.cardsgrup div{
+    h4{
+    
+    text-align: center;
+        line-height: 1.5;
+        color: #6a6a6a;
+    }
+    p{
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        color:#2fb4cc;
+        border: 1px solid #2fb4cc;
+        border-radius: 4px;
+        transition: all 400ms ease;
+    }
+}
+.cardsgrup a:hover{
+    background: #2fb4cc;
+    color:#fff;
+}
+
+.cardg1{
+    font-family: $typo-text;
+    img{
+        margin-left: -20%;
+    }
+    padding: 5px;
+    h4{
+        
+        font-size: 200%;
+    }
+    p{
+        font-family: $typo-main;
+        color: black
+    }
+}
+
+.cardg2{
+@extend .cardg1;
+}
+.cardg3{
+@extend .cardg1;
+}
+
+.cardg4{
+    @extend .cardg1;
+}
+.cardg5{
+    @extend .cardg1;
+}

@@ -10,20 +10,40 @@
         width: 101%;
     }
 }
+.title{
+    h1{
+        font-family: $typo-main;
+        font-size: 200%;
+    }
+}
 .carindex{
     width: 101%;
 }
+.form1{
+    top: -30px;
+    left: -30%;
+    width: 40%;
+    height: 40%;
+}
 .item1{
+    
+    width: 100%;
+    h2{
+        font-size: 150%;
+        font-family:$typo-text;
+    }
     h3{
-        font-size: 100%;
+        font-size: 150%;
+        font-family: $typo-main;
+    }
+    p{
+        font-family: $typo-main;
+    }
+    img{
+        width: 100%;
     }
 }
-.lorem{
-    font-size: 100%;
-}
-img{
-    width: 25%;
-}
+
 /*empieza el segundo html*/
 .colorbody{
     width: 100%;
@@ -35,27 +55,38 @@ img{
     }
 }
 .card{
-    width: 100%;
+    flex-direction: column;
+    gap: 1%;
+    height: 50%;
+    width: 50%;
 }
 .cardsgrup{
     width: 100%;
-    padding: 5px;
-    border-radius: 15px;
-    align-items: center;
-    row-gap: 10px;
+    h4{
+        margin-left: 40%;
+    }
     img{
-        width: 90px;
+        margin-left: 50%;
+        width: 50%;
     }
 }
-
 /*empieza el tercer html*/
 .colordestino{
     width: 100%;
     background-attachment: fixed;
 }
+.maindestino{
+    h1{
+        top:-15px;
+        text-align:center;
+    }
+}
 .titulo4{
     img{
         width: 101%;
+    }
+    a{
+        top:550px;
     }
 }
 /*empieza el cuarto html*/
@@ -65,25 +96,27 @@ img{
 }
 
 .mainvuelos{
+    h1{
+        text-align: end;
+        top: 30px;
+    }
     img{
         width: 101%;
         height: 100%;
     }
 }
 fieldset{
-    background-color: rgba(240, 248, 255, 0.644);
-    color: black;
-    position: absolute;
-    top: 100px;
-    margin: 30px;
-    padding:20px;
-    width: 40%;
-    height: 40%;
-    border-radius: 30px;
-    border: 2px solid;
     font-size: 80%;
+    top: 50px;
+    width: 50%;
+    height: 60%;
     legend{
+        
         padding: 5px;
+    }
+    input{
+        width: 30%;
+        font-size: 80%;
     }
 }
 /*empieza el ultimo html*/
@@ -91,28 +124,17 @@ fieldset{
     width: 100%;
     background-attachment: fixed;
 }
-.botonvuelos{
-    width: 50%;
-    height: 50%;
-    left:40%;
-}
-.form{
-    font-size: 90%;
-    height: 30%;
+.contactos{
+    font-size: 80%;
+    width: 60%;
+    height: 60%;
+    gap: 1%;
+    span{
+        display: flex;
+    }
 }
 .resenas{
-    img{
-        top: -10px;
-        width: 150px;
-        height: 150px;
-    }
-    h2{
-        top: 350px;
-    }
-    p{
-        left: 150px;
-        bottom: 100px;
-    }
+    width: 80%;
 }
 
 

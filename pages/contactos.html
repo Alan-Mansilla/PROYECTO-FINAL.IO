@@ -31,31 +31,27 @@
             <div>
                 <h1>VIAJAR.COM</h1>
             </div>
-            <fieldset class="botonvuelos">
-                <div class="form">
+            <form action="" method="post">
+            <fieldset class="contactos" >
+                
                 <legend>CONTACTANOS</legend>
                 <label for="NOMBRE"></label>
                 <span> NOMBRE:</span>
                 <input type="text" id="NOMBRE" placeholder="ingrese su nombre">
-            
-            <label for="APELLIDO">
-            <p> APELLIDO:</p>
+            <label for="APELLIDO"></label>
+            <span> APELLIDO:</span>
             <input type="text" id="APELLIDO" placeholder="ingrese su apellido">
-        </label>
-        <label for="EDAD">
-            <p>EDAD</p>
-            <input type="edad" id="EDAD" placeholder="ingrese su edad">
-        </label>
-        <p for="email">Correo electrónico</p>
+        <label for="EDAD"></label>
+            <span>EDAD:</span>
+            <input type="text" id="EDAD" placeholder="ingrese su edad">
+        <span for="email">EMAIL:</span>
         <input type="email" id="email" name="visitor_email" placeholder="ejemplo@email.com" required>
-            <p for="title">Motivo de contacto</p> 
+            <span for="title">Motivo de contacto:</span> 
             <input type="text" id="title" name="email_title" required placeholder="Problema/Consulta" pattern=[A-Za-z0-9\s]{8,60}>
-            
-            <p for="message">Solicitud</p>
-                <textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required></textarea>
             <button type="submit">Enviar mensaje</button>
-        </div>
+        
         </fieldset>
+    </form>
         <div class="resenas">
             <img src="../assets/img/resena1.jpg" alt="">
             <h2>RESEÑAS:</h2>

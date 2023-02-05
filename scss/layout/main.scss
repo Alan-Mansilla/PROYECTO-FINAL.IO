@@ -1,3 +1,10 @@
+.fondinde{
+    width: 100%;
+    img{
+        
+        margin-top: -10%;
+    }
+}
 .title{
     justify-content: center;
     display: flex;
@@ -5,205 +12,145 @@
     align-items:center;
     font-style: $typo-titulo;
 }
+.caja1{
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 10%;
+    
+}
+.form1 {
+    position: relative;
+    left: 0;
+    width: 400px;
+    min-height: 400px;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(to right bottom, #f4649c, #f67eba, #f796d4, #f6aeea, #f6c5fd);
+}
 
+.form1 .caja2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+header h2 {
+    color: #3e403f;
+}
+header p {letter-spacing: 0.05em;}
+
+.caja-item {
+    width: 100%;
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+input{
+    width: 250px;
+    min-height: 50px;
+    margin-top: 3%;
+    padding: 15px;
+    font-size: 16px;
+    color: #5E6472;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    color: #252537;
+    width: 250px;
+    height: 50px;
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+.submits {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+.frgt-pass {background: #f4f7f6;}
+.sign-up {background: #f4f7f6;}
+
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
 .carindex{
     width: 100%;
     height: 100%;
-    @include grid (col,row,areas)
-    
+    @include grid (col,row,areas);
+    display: flex;
+    gap:5%;
 }
+
 .item1{
     grid-area: item1;
-    border-radius: 20px;
-    background-color: rgba(240, 248, 255, 0.76);
-    width: 100%;
+    width: 50%;
     height: 100%;
+    padding: 1%;
+    h2{
+        text-align: center;
+        font-size: 250%;
+    }
     h3{
         text-align: center;
-        font-size: 200%;
-    }
-    h4{
-        text-align: center;
-        font-size: 150%;
-        
-        
-    }
-    img{
-        
-        margin-top: -100px;
-        margin-left: 3%;
-    }
-}
-.lorem{
-    font-family: $typo-main;
-    margin-top: 40px;
-    margin-left: 33%;
-    font-size: 30px;
-    color: rgb(13, 13, 14);
-
-}
-.item2{
-    height: 100%;
-    grid-area: item2;
-    @extend .item1;
-    img{
-        position: absolute;
-        margin-top: -50px;
-    }
-}
-.item3{
-    grid-area: item3;
-    @extend .item1;
-    img{
-        position: absolute;
-        margin-top: -150px;
-    }
-}
-.lorem2{
-    @extend .lorem;
-}
-.lorem3{
-    @extend .lorem;
-
-}
-/*empieza el segundo html*/
-.container h1{
-    position: relative;
-    text-align: center;
-    top: -850px;
-}
-.container{
-    h2{
-        position: relative;
-        top: -20px;
-    }
-}
-.tienda{
-    h3{
-        text-align: center;
-    }
-}
-.card{
-    width:100%;
-    background-image: linear-gradient(to right, #4cd7ec, #74d3e1, #8fcfd7, #a5cbcf, #b8c6c7);
-    display: flex;
-    flex-direction: row;
-}
-.cardsgrup{
-    width: 100%;
-    padding: 40px;
-    border: 2px solid #384c50;
-    border-radius: 10px;
-    align-items: center;
-    row-gap: 50px;
-
-}
-
-
-/*empieza el html 3*/
-
-.maindestino h1{
-    position: relative;
-    text-align: center;
-}
-.titulo4{
-    h2{
-    position: absolute;
-    top: 40%;
-    left:50%}
-    a{
-        color: black;
-        font-family: $typo-main;
-        text-decoration: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        padding: 10px 10px;
-        border: 5px solid white;
-        border-radius: 20px;
-        background-color: aliceblue;
-    }
-}
-.textodes{
-    font-family: $typo-main;
-    text-align: left;
-    left: 10px;
-    border-radius: 5px;
-    background-color: rgba(240, 248, 255, 0.603);
-    width: 40%;
-    top: 200px;
-    position: absolute;
-}
-/*empieza el cuarto html*/
-
-.mainvuelos h1{
-    top: -800px;
-    position: relative;
-    text-align: center;
-}
-
-fieldset{
-    font-family: $typo-text;
-    background-color: rgba(240, 248, 255, 0.644);
-    color: black;
-    position: absolute;
-    top: 100px;
-    margin: 30px;
-    padding:10px;
-    width: 40%;
-    height: 25%;
-    border-radius: 30px;
-    border: 2px solid;
-    font-size: 110%;
-    legend{
-        padding: 10px;
-    }
-}
-
-/*empieza el ultimo html*/
-
-.h1contactos{
-    h1{
-        position: relative;
-        text-align: center;
-    }
-}
-
-.botonvuelos{
-    border-radius: 10px;
-    background-color: #a5a39f73;
-    width: 500px;
-    height:300px;
-    position: relative;
-    left: 700px;
-    top: 30px;
-}
-.form{
-    margin-top: -5%;
-    padding:5px ;
-}
-
-.resenas{
-    img{
-    position: relative;
-    top: -200px;
-    background-color: azure;
-    width: 200px;
-    height: 200px;
-    border-radius:100px ;}
-    h2{
-        color: rgb(84, 84, 85);
-        top: 200px;
-        position: absolute;
-        left: 30px;
+        font-size: 180%;
     }
     p{
-        font-family: $typo-main;
-        position: relative;
-        text-align:right;
-        width: 40%;
-        bottom: 200px;
-        left: 80px;
+        text-align:center;
+        font-size: 150%;
     }
-
+}
+.button{
+    margin-left: 30%;
+}
+.item2{
+    grid-area: item2;
+    width: 100%;
+    height: 100%;
+    @extend .item1
+}
+.item3{
+    width: 100%;
+    height: 100%;
+    grid-area: item3;
+    @extend .item1
 }

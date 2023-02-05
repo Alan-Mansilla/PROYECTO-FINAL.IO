@@ -11,7 +11,6 @@
   margin: 0%;
   padding: 0%;
   width: 100%;
-  height: 100%;
   background-image: linear-gradient(to right top, #ec4cec, #f17ef1, #f5a6f5, #f8cbf8, #f9eef9);
   background-size: cover;
   background-attachment: fixed;
@@ -57,7 +56,7 @@
     font-family: "Roboto", sans-serif; }
     .navbar ul a, .promoht2 ul a, .destiny ul a, .vuelos ul a, .contactos5 ul a {
       text-decoration: none;
-      font-size: 20px; }
+      font-size: 100%; }
 
 /*empieza el segundo html*/
 .headerhdm2 {
@@ -72,6 +71,11 @@
   height: 20%; }
 
 /*empieza el ultimo html*/
+.fondinde {
+  width: 100%; }
+  .fondinde img {
+    margin-top: -10%; }
+
 .title {
   justify-content: center;
   display: flex;
@@ -79,51 +83,141 @@
   align-items: center;
   font-style: "Montserrat", sans-serif; }
 
+.caja1 {
+  position: absolute;
+  margin-top: -60%;
+  margin-left: 10%; }
+
+.form1 {
+  position: relative;
+  left: 0;
+  width: 400px;
+  min-height: 400px;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px rgba(234, 177, 149, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(to right bottom, #f4649c, #f67eba, #f796d4, #f6aeea, #f6c5fd); }
+
+.form1 .caja2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto; }
+
+header {
+  margin: 2% auto 10% auto;
+  text-align: center; }
+
+header h2 {
+  color: #3e403f; }
+
+header p {
+  letter-spacing: 0.05em; }
+
+.caja-item {
+  width: 100%;
+  background: #fff;
+  color: #333;
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px; }
+
+input {
+  width: 250px;
+  min-height: 50px;
+  margin-top: 3%;
+  padding: 15px;
+  font-size: 16px;
+  color: #5E6472;
+  outline: none;
+  border: none;
+  border-radius: 5px; }
+
+button {
+  display: inline-block;
+  color: #252537;
+  width: 250px;
+  height: 50px;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin: 7% auto;
+  letter-spacing: 0.05em; }
+
+.submits {
+  width: 48%;
+  display: inline-block;
+  float: left;
+  margin-left: 2%; }
+
+.frgt-pass {
+  background: #f4f7f6; }
+
+.sign-up {
+  background: #f4f7f6; }
+
+button:hover {
+  transform: translatey(3px);
+  box-shadow: none; }
+
+button:hover {
+  animation: ani9 0.4s ease-in-out infinite alternate; }
+
+@keyframes ani9 {
+  0% {
+    transform: translateY(3px); }
+  100% {
+    transform: translateY(5px); } }
+
 .carindex {
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "item1 item1 item1 item1 item1" "item2 item2 item2 item2 item2" "item3 item3 item3 item3 item3"; }
+  grid-template-areas: "item1 none item2 none item3" "item1 none item2 none item3" "item1 none item2 none item3";
+  display: flex;
+  gap: 5%; }
 
 .item1, .item2, .item3 {
   grid-area: item1;
-  border-radius: 20px;
-  background-color: rgba(240, 248, 255, 0.76);
-  width: 100%;
-  height: 100%; }
+  width: 50%;
+  height: 100%;
+  padding: 1%; }
+  .item1 h2, .item2 h2, .item3 h2 {
+    text-align: center;
+    font-size: 250%; }
   .item1 h3, .item2 h3, .item3 h3 {
     text-align: center;
-    font-size: 200%; }
-  .item1 h4, .item2 h4, .item3 h4 {
+    font-size: 180%; }
+  .item1 p, .item2 p, .item3 p {
     text-align: center;
     font-size: 150%; }
-  .item1 img, .item2 img, .item3 img {
-    margin-top: -100px;
-    margin-left: 3%; }
 
-.lorem, .lorem2, .lorem3 {
-  font-family: "Oswald", sans-serif;
-  margin-top: 40px;
-  margin-left: 33%;
-  font-size: 30px;
-  color: #0d0d0e; }
+.button {
+  margin-left: 30%; }
 
 .item2 {
-  height: 100%;
-  grid-area: item2; }
-  .item2 img {
-    position: absolute;
-    margin-top: -50px; }
+  grid-area: item2;
+  width: 100%;
+  height: 100%; }
 
 .item3 {
+  width: 100%;
+  height: 100%;
   grid-area: item3; }
-  .item3 img {
-    position: absolute;
-    margin-top: -150px; }
 
-/*empieza el segundo html*/
+.container img {
+  margin-top: -10%; }
+
 .container h1 {
   position: relative;
   text-align: center;
@@ -146,27 +240,69 @@
   width: 100%;
   padding: 40px;
   border: 2px solid #384c50;
-  border-radius: 10px;
   align-items: center;
-  row-gap: 50px; }
+  row-gap: 50px;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ebf7f8;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease; }
 
-/*empieza el html 3*/
+.cardsgrup:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%); }
+
+.cardsgrup div h4 {
+  text-align: center;
+  line-height: 1.5;
+  color: #6a6a6a; }
+
+.cardsgrup div p {
+  font-weight: 400;
+  margin-bottom: 15px; }
+
+.cardsgrup div a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease; }
+
+.cardsgrup a:hover {
+  background: #2fb4cc;
+  color: #fff; }
+
+.cardg1, .cardg2, .cardg3, .cardg4, .cardg5 {
+  font-family: "Mulish", sans-serif;
+  padding: 5px; }
+  .cardg1 img, .cardg2 img, .cardg3 img, .cardg4 img, .cardg5 img {
+    margin-left: -20%; }
+  .cardg1 h4, .cardg2 h4, .cardg3 h4, .cardg4 h4, .cardg5 h4 {
+    font-size: 200%; }
+  .cardg1 p, .cardg2 p, .cardg3 p, .cardg4 p, .cardg5 p {
+    font-family: "Oswald", sans-serif;
+    color: black; }
+
 .maindestino h1 {
+  font-family: "Oswald", sans-serif;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  font-size: 250%; }
 
-.titulo4 h2 {
-  position: absolute;
-  top: 40%;
-  left: 50%; }
+.titulo4 img {
+  margin-top: -12%; }
 
 .titulo4 a {
   color: black;
   font-family: "Oswald", sans-serif;
   text-decoration: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 55%;
+  left: 30%;
   padding: 10px 10px;
   border: 5px solid white;
   border-radius: 20px;
@@ -182,67 +318,72 @@
   top: 200px;
   position: absolute; }
 
-/*empieza el cuarto html*/
 .mainvuelos h1 {
-  top: -800px;
+  top: -150px;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 250%; }
+
+.mainvuelos img {
+  margin-top: -10%; }
 
 fieldset {
-  font-family: "Mulish", sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgba(240, 248, 255, 0.644);
   color: black;
   position: absolute;
   top: 100px;
   margin: 30px;
   padding: 10px;
-  width: 40%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   border-radius: 30px;
   border: 2px solid;
   font-size: 110%; }
   fieldset legend {
     padding: 10px; }
 
-/*empieza el ultimo html*/
 .h1contactos h1 {
+  font-size: 300%;
+  font-family: "Oswald", sans-serif;
   position: relative;
   text-align: center; }
 
-.botonvuelos {
+.contactos {
   border-radius: 10px;
   background-color: #a5a39f73;
-  width: 500px;
-  height: 300px;
+  flex-direction: column;
   position: relative;
-  left: 700px;
-  top: 30px; }
+  left: 30%;
+  top: -50px;
+  padding-left: 2%; }
 
-.form {
-  margin-top: -5%;
-  padding: 5px; }
-
-.resenas img {
-  position: relative;
-  top: -200px;
-  background-color: azure;
-  width: 200px;
-  height: 200px;
-  border-radius: 100px; }
-
-.resenas h2 {
-  color: #545455;
-  top: 200px;
-  position: absolute;
-  left: 30px; }
-
-.resenas p {
-  font-family: "Oswald", sans-serif;
-  position: relative;
-  text-align: right;
+.resenas {
+  margin-bottom: 1%;
+  display: block;
+  padding: 1em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: #dad7d7;
+  height: 100%;
   width: 40%;
-  bottom: 200px;
-  left: 80px; }
+  border-radius: 3px;
+  left: 30%; }
+  .resenas img {
+    border-radius: 50%;
+    display: block;
+    width: 90px;
+    margin: 10px 20px 0 0;
+    border: 3px solid #fff;
+    float: left;
+    position: relative;
+    background-color: azure;
+    height: 90px; }
+  .resenas p {
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    width: 70%; }
 
 .iconos {
   display: flex;
@@ -264,7 +405,7 @@ fieldset {
 /*empieza el segundo html*/
 .foterclass, .fot3, .footerhdm4, .pie5 {
   display: flex;
-  height: 40px;
+  height: 40%;
   width: 100%;
   gap: 30px; }
 
@@ -287,14 +428,28 @@ fieldset {
     margin-left: 10%; }
   .fondinde img {
     width: 101%; }
+  .title h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 200%; }
   .carindex {
     width: 101%; }
-  .item1 h3, .item2 h3, .item3 h3 {
-    font-size: 100%; }
-  .lorem, .lorem2, .lorem3 {
-    font-size: 100%; }
-  img {
-    width: 25%; }
+  .form1 {
+    top: -30px;
+    left: -30%;
+    width: 40%;
+    height: 40%; }
+  .item1, .item2, .item3 {
+    width: 100%; }
+    .item1 h2, .item2 h2, .item3 h2 {
+      font-size: 150%;
+      font-family: "Mulish", sans-serif; }
+    .item1 h3, .item2 h3, .item3 h3 {
+      font-size: 150%;
+      font-family: "Oswald", sans-serif; }
+    .item1 p, .item2 p, .item3 p {
+      font-family: "Oswald", sans-serif; }
+    .item1 img, .item2 img, .item3 img {
+      width: 100%; }
   /*empieza el segundo html*/
   .colorbody {
     width: 100%;
@@ -302,67 +457,79 @@ fieldset {
   .container img {
     width: 101%; }
   .card {
-    width: 100%; }
+    flex-direction: column;
+    gap: 1%;
+    height: 50%;
+    width: 50%; }
   .cardsgrup {
-    width: 100%;
-    padding: 5px;
-    border-radius: 15px;
-    align-items: center;
-    row-gap: 10px; }
+    width: 100%; }
+    .cardsgrup h4 {
+      margin-left: 40%; }
     .cardsgrup img {
-      width: 90px; }
+      margin-left: 50%;
+      width: 50%; }
   /*empieza el tercer html*/
   .colordestino {
     width: 100%;
     background-attachment: fixed; }
+  .maindestino h1 {
+    top: -15px;
+    text-align: center; }
   .titulo4 img {
     width: 101%; }
+  .titulo4 a {
+    top: 550px; }
   /*empieza el cuarto html*/
   .bodyclass {
     width: 100%;
     background-attachment: fixed; }
+  .mainvuelos h1 {
+    text-align: end;
+    top: 30px; }
   .mainvuelos img {
     width: 101%;
     height: 100%; }
   fieldset {
-    background-color: rgba(240, 248, 255, 0.644);
-    color: black;
-    position: absolute;
-    top: 100px;
-    margin: 30px;
-    padding: 20px;
-    width: 40%;
-    height: 40%;
-    border-radius: 30px;
-    border: 2px solid;
-    font-size: 80%; }
+    font-size: 80%;
+    top: 50px;
+    width: 50%;
+    height: 60%; }
     fieldset legend {
       padding: 5px; }
+    fieldset input {
+      width: 30%;
+      font-size: 80%; }
   /*empieza el ultimo html*/
   .bodyclass5 {
     width: 100%;
     background-attachment: fixed; }
-  .botonvuelos {
-    width: 50%;
-    height: 50%;
-    left: 40%; }
-  .form {
-    font-size: 90%;
-    height: 30%; }
-  .resenas img {
-    top: -10px;
-    width: 150px;
-    height: 150px; }
-  .resenas h2 {
-    top: 350px; }
-  .resenas p {
-    left: 150px;
-    bottom: 100px; } }
+  .contactos {
+    font-size: 80%;
+    width: 60%;
+    height: 60%;
+    gap: 1%; }
+    .contactos span {
+      display: flex; }
+  .resenas {
+    width: 80%; } }
 
 @media (max-width: 320px) {
   /*empieza el primer html*/
   .fondinde img {
     width: 168%; }
+  .title h1 {
+    color: aliceblue;
+    margin-left: 180%; }
+  .caja1 {
+    top: 32%;
+    height: 40%;
+    width: 180%; }
+  .caja-field {
+    width: 100%; }
+    .caja-field input {
+      width: 80%; }
+    .caja-field button {
+      width: 80%; }
   .title h1 {
     position: relative;
     top: -310px; }
@@ -373,57 +540,141 @@ fieldset {
     padding: 1%; }
     .item1 img, .item2 img, .item3 img {
       display: none; }
-  .lorem, .lorem2, .lorem3 {
-    position: relative;
-    left: -10%; }
+  .iconos {
+    margin-left: -20%; }
   /*empieza el segundo html*/
   .colorbody {
     background-attachment: fixed;
     background-size: cover;
-    width: 250%; }
-  .containter img {
     width: 100%; }
+  .headerhdm2 {
+    width: 50%; }
+  .promoht2 {
+    width: 100%;
+    margin-left: -70%;
+    gap: 1%; }
+    .promoht2 ul {
+      gap: 4%; }
+      .promoht2 ul a {
+        font-size: 50%; }
+  .container {
+    width: 100%; }
+    .container img {
+      width: 54%; }
+    .container h2 {
+      font-size: 80%;
+      font-family: "Oswald", sans-serif; }
+  .tienda h3 {
+    font-size: 80%;
+    font-family: "Oswald", sans-serif;
+    margin-left: -30%; }
+  .card {
+    margin-left: -10%;
+    height: 80%;
+    width: 60%; }
+    .card img {
+      display: none; }
+  .cardg1 h4, .cardg2 h4, .cardg3 h4, .cardg4 h4, .cardg5 h4 {
+    font-size: 110%; }
+  .cardsgrup {
+    width: 100;
+    height: 1000%; }
+  .foterclass, .fot3, .footerhdm4, .pie5 {
+    height: 20%; }
   .fopromo, .iconosd, .divvvuelos, .iconosh5 {
-    margin-bottom: -20px; }
+    flex-direction: column;
+    margin-left: 2%;
+    font-size: 50%;
+    bottom: 0%; }
   /*empieza el tercer html*/
   .colordestino {
     width: 200%;
     background-attachment: fixed;
     background-size: cover; }
+  .destiny {
+    width: 50%;
+    margin-left: -5%; }
+    .destiny ul a {
+      font-size: 70%; }
   .titulo4 img {
-    width: 120%; }
+    width: 50%; }
   .textodes {
-    top: 35%;
-    width: 100%;
-    font-size: 90%; }
+    display: none; }
+  .maindestino h1 {
+    margin-left: -40%; }
   .titulo4 {
     width: 100%; }
-    .titulo4 h2 {
-      width: 40%;
-      font-size: 70%;
-      left: 500px; }
     .titulo4 a {
+      top: 200px;
       width: 40%;
       font-size: 60%;
-      left: 500px; }
+      left: 200px; }
+  .fot3 {
+    width: 100%; }
+  .iconosd {
+    display: flex; }
   /*empieza el cuarto html*/
   .bodyclass {
+    position: relative;
     background-attachment: fixed;
+    height: 300%;
     width: 200%; }
-  .mainvuelos img {
-    width: 105%; }
+  .hdmvuelos {
+    gap: 1%;
+    width: 50%; }
+  .vuelos {
+    margin-left: -60%; }
+    .vuelos ul {
+      gap: 3%; }
+      .vuelos ul a {
+        font-size: 90%; }
+  .mainvuelos {
+    position: relative;
+    height: 200%; }
+    .mainvuelos div h1 {
+      top: -60px;
+      text-align: start; }
+    .mainvuelos img {
+      display: none; }
   fieldset {
-    font-size: 60%;
+    position: absolute;
+    top: -50%;
+    margin-left: 1%;
+    height: 330px;
+    font-size: 70%;
     padding: 10px; }
     fieldset legend {
       padding: 1px; }
+    fieldset button {
+      width: 30%; }
+  .footerhdm4 {
+    bottom: 0%;
+    width: 100%;
+    height: 100px;
+    margin-top: 50%; }
+  .divvuelos {
+    display: flex; }
+    .divvuelos a {
+      bottom: 0%; }
   /*empieza el ultimo html*/
   .bodyclass5 {
     background-attachment: fixed; }
-  .botonvuelos {
-    width: 100%;
-    justify-items: end; }
-  .resenas img {
-    top: 80px; }
-  .resenas h2 {
-    top: 400px; } }
+  .contactos5 {
+    margin-left: -10%; }
+    .contactos5 ul {
+      gap: 3%; }
+      .contactos5 ul a {
+        font-size: 90%; }
+  .contactos {
+    margin-left: -10%;
+    width: 80%; }
+    .contactos input {
+      width: 200px; }
+    .contactos button {
+      width: 200px; }
+  .resenas {
+    width: 100%; }
+    .resenas img {
+      top: 1px; }
+    .resenas h2 {
+      top: 400px; } }
