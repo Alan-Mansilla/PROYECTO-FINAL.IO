@@ -1,0 +1,103 @@
+@media (max-width: 440px) {
+    .body1{
+        width: 100%;
+        height: 100%;
+    }
+    .mobile{
+        height: 20%;
+    }
+    header label{
+        
+        align-items: flex-start;
+        width: 10%;
+        display: block;
+        img{
+        
+            margin-left: 0;
+        }
+    }
+    #btn-menu:checked ~ .navbar{
+        position: relative;
+        margin: 0;
+    }
+    .navbar{
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        margin-left:-100%;
+        transition: all 0.5s;
+        ul{
+            
+            text-align: start;
+            flex-direction: column;
+            a{
+                text-align: left;
+                font-family: $typo-main;
+                color: black;
+            }
+        }
+    }
+
+    .fondinde{
+        img{
+            position: static;
+            width: 100%;
+        }
+    }
+    .title{
+        h1{
+            color: aliceblue;
+        text-align: center;
+        }
+    }
+    .resomobile{
+        position: relative;
+        height: 80%;
+    }
+    .caja1{
+        
+        height: 40%;
+        width: 100%;
+    }
+    .form1{
+        height: 50%;
+    }
+    .caja-field{
+        width: 100%;
+        height: 30%;
+        input{
+            width: 70%;
+        }
+        button{
+            width: 70%;
+        }
+    }
+    .title{
+        h1{
+            position: relative;
+            
+        }
+    }
+    .carindex{
+        flex-direction: column;
+        
+        align-items: flex-start;
+        margin: 0;
+        @include grid2 (col,row,areas);
+    }
+    .item1{
+    align-items: flex-start;
+        img{
+            display: none;
+        }
+    }
+    .iconos{
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        div{
+            display:flex ;
+        }
+        
+    }
+}
