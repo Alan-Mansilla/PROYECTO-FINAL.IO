@@ -1,0 +1,27 @@
+
+.maindestino{
+    height: 100%;
+    h1{
+    font-family: $typo-main;
+    
+    text-align: center;
+    font-size: 250%;}
+    h2{ 
+        margin: 1%;
+        font-size: 150%;
+        font-family: $typo-main;
+    }
+    p{
+        font-size: 100%;
+        margin: 2%;
+        font-family: $typo-legales;
+        color: black;
+    }
+    a{
+        font-family: $typo-nav;
+        color: black;
+        text-decoration: none;
+        margin: 2%;
+    }
+}
+
