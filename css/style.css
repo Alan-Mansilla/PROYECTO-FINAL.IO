@@ -494,11 +494,8 @@ fieldset {
     width: 100%;
     background-attachment: fixed; }
   .mainvuelos h1 {
-    text-align: end;
-    top: 30px; }
-  .mainvuelos img {
-    width: 101%;
-    height: 100%; }
+    top: -50px;
+    text-align: center; }
   fieldset {
     font-size: 80%;
     top: 50px;
@@ -507,12 +504,15 @@ fieldset {
     fieldset legend {
       padding: 5px; }
     fieldset input {
-      width: 30%;
+      width: 50%;
       font-size: 80%; }
   /*empieza el ultimo html*/
   .bodyclass5 {
     width: 100%;
     background-attachment: fixed; }
+  .h1contactos div h1 {
+    top: -50px;
+    text-align: center; }
   .contactos {
     font-size: 80%;
     width: 60%;
@@ -956,3 +956,94 @@ fieldset {
       top: 1px; }
     .resenas h2 {
       top: 400px; } }
+
+@media (max-width: 1200px) {
+  /*empieza el primer html*/
+  .navbar ul, .promoht2 ul, .destiny ul, .vuelos ul, .contactos5 ul {
+    margin-left: 10%; }
+  .fondinde img {
+    width: 100vw; }
+  .title h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 200%; }
+  .carindex {
+    width: 100%; }
+  .form1 {
+    top: -30px;
+    left: -30%;
+    width: 40%;
+    height: 40%; }
+  .item1, .item2, .item3 {
+    width: 100%; }
+    .item1 h2, .item2 h2, .item3 h2 {
+      font-size: 150%;
+      font-family: "Mulish", sans-serif; }
+    .item1 h3, .item2 h3, .item3 h3 {
+      font-size: 150%;
+      font-family: "Oswald", sans-serif; }
+    .item1 p, .item2 p, .item3 p {
+      font-family: "Oswald", sans-serif; }
+    .item1 img, .item2 img, .item3 img {
+      width: 100%; }
+  /*empieza el segundo html*/
+  .colorbody {
+    width: 100%;
+    background-attachment: fixed; }
+  .container img {
+    width: 100%; }
+  .card {
+    flex-direction: column;
+    gap: 1%;
+    height: 50%;
+    width: 50%; }
+  .cardsgrup {
+    width: 100%; }
+    .cardsgrup h4 {
+      margin-left: 40%; }
+    .cardsgrup img {
+      margin-left: 50%;
+      width: 50%; }
+  /*empieza el tercer html*/
+  .colordestino {
+    width: 100%;
+    background-attachment: fixed; }
+  .maindestino h1 {
+    top: -15px;
+    text-align: center; }
+  .titulo4 img {
+    width: 101%; }
+  .titulo4 a {
+    top: 550px; }
+  /*empieza el cuarto html*/
+  .bodyclass {
+    width: 100%;
+    background-attachment: fixed; }
+  .mainvuelos h1 {
+    top: -50px;
+    text-align: center; }
+  fieldset {
+    font-size: 80%;
+    top: 50px;
+    width: 50%;
+    height: 60%; }
+    fieldset legend {
+      padding: 5px; }
+    fieldset input {
+      width: 50%;
+      font-size: 80%; }
+  /*empieza el ultimo html*/
+  .bodyclass5 {
+    width: 100%;
+    background-attachment: fixed; }
+  .h1contactos div h1 {
+    top: -50px;
+    text-align: center; }
+  .contactos {
+    font-size: 80%;
+    width: 60%;
+    height: 60%;
+    gap: 1%; }
+    .contactos span {
+      display: flex; }
+  .resenas {
+    width: 80%; } }
