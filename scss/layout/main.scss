@@ -2,7 +2,7 @@
     width: 100%;
     img{
         width: 100%;
-        margin-top: -10%;
+    margin-top: -8%;
     }
 }
 .title{
@@ -118,7 +118,7 @@ button:hover {
     height: 100%;
     @include grid (col,row,areas);
     display: flex;
-    gap:5%;
+    gap:1%;
 }
 
 .item1{

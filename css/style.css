@@ -82,7 +82,7 @@ label {
   width: 100%; }
   .fondinde img {
     width: 100%;
-    margin-top: -10%; }
+    margin-top: -8%; }
 
 .title {
   justify-content: center;
@@ -193,7 +193,7 @@ button:hover {
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "item1 none item2 none item3" "item1 none item2 none item3" "item1 none item2 none item3";
   display: flex;
-  gap: 5%; }
+  gap: 1%; }
 
 .item1, .item2, .item3 {
   grid-area: item1;
@@ -225,7 +225,7 @@ button:hover {
 
 .container img {
   width: 100%;
-  margin-top: -10%; }
+  margin-top: -8%; }
 
 .container h1 {
   position: relative;
