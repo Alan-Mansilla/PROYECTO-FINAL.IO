@@ -48,6 +48,7 @@
   padding: 20px;
   text-align: center; }
   .navbar ul, .promoht2 ul, .destiny ul, .vuelos ul, .contactos5 ul {
+    width: 100%;
     margin-left: 20%;
     text-align: center;
     width: 100%;
@@ -56,6 +57,7 @@
     gap: 10%;
     font-family: "Roboto", sans-serif; }
     .navbar ul a, .promoht2 ul a, .destiny ul a, .vuelos ul a, .contactos5 ul a {
+      text-align: center;
       text-decoration: none;
       font-size: 100%; }
 
@@ -197,9 +199,12 @@ button:hover {
 
 .item1, .item2, .item3 {
   grid-area: item1;
-  width: 50%;
+  width: 100%;
   height: 100%;
   padding: 1%; }
+  .item1 img, .item2 img, .item3 img {
+    width: 100%;
+    align-items: center; }
   .item1 h2, .item2 h2, .item3 h2 {
     text-align: center;
     font-size: 250%; }
@@ -229,12 +234,7 @@ button:hover {
 
 .container h1 {
   position: relative;
-  text-align: center;
-  top: -850px; }
-
-.container h2 {
-  position: relative;
-  top: -20px; }
+  text-align: center; }
 
 .tienda h3 {
   text-align: center; }
@@ -286,10 +286,10 @@ button:hover {
   color: #fff; }
 
 .cardg1, .cardg2, .cardg3, .cardg4, .cardg5 {
-  font-family: "Mulish", sans-serif;
-  padding: 5px; }
+  font-family: "Mulish", sans-serif; }
   .cardg1 img, .cardg2 img, .cardg3 img, .cardg4 img, .cardg5 img {
-    margin-left: -20%; }
+    width: 100%;
+    align-items: start; }
   .cardg1 h4, .cardg2 h4, .cardg3 h4, .cardg4 h4, .cardg5 h4 {
     font-size: 200%; }
   .cardg1 p, .cardg2 p, .cardg3 p, .cardg4 p, .cardg5 p {

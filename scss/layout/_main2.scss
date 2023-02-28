@@ -7,14 +7,9 @@
 .container h1{
     position: relative;
     text-align: center;
-    top: -850px;
+   
 }
-.container{
-    h2{
-        position: relative;
-        top: -20px;
-    }
-}
+
 .tienda{
     h3{
         text-align: center;
@@ -74,9 +69,11 @@
 .cardg1{
     font-family: $typo-text;
     img{
-        margin-left: -20%;
+        width: 100%;
+        align-items: start;
+        
     }
-    padding: 5px;
+   
     h4{
         
         font-size: 200%;
